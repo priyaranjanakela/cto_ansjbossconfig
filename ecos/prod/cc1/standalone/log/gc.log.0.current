@@ -1,0 +1,5 @@
+OpenJDK 64-Bit Server VM (25.265-b01) for linux-amd64 JRE (1.8.0_265-b01), built on Sep 21 2020 12:16:45 by "mockbuild" with gcc 8.3.1 20191121 (Red Hat 8.3.1-5)
+Memory: 4k page, physical 1832976k(388464k free), swap 1048572k(741884k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:GCLogFileSize=3145728 -XX:InitialHeapSize=1366294528 -XX:MaxHeapSize=1366294528 -XX:MaxMetaspaceSize=268435456 -XX:MetaspaceSize=100663296 -XX:NumberOfGCLogFiles=5 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:-TraceClassUnloading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation 
+2021-05-22T07:25:37.808-0400: 4.837: [GC (Allocation Failure) 2021-05-22T07:25:37.808-0400: 4.837: [DefNew: 356096K->32549K(400576K), 0.1023021 secs] 356096K->32549K(1290816K), 0.1024557 secs] [Times: user=0.03 sys=0.02, real=0.10 secs] 
+2021-05-22T07:46:18.405-0400: 1245.434: [GC (Allocation Failure) 2021-05-22T07:46:18.406-0400: 1245.435: [DefNew: 388645K->22035K(400576K), 0.3009538 secs] 388645K->33863K(1290816K), 0.3015686 secs] [Times: user=0.09 sys=0.05, real=0.30 secs] 

@@ -1,0 +1,13 @@
+OpenJDK 64-Bit Server VM (25.265-b01) for linux-amd64 JRE (1.8.0_265-b01), built on Sep 21 2020 12:16:45 by "mockbuild" with gcc 8.3.1 20191121 (Red Hat 8.3.1-5)
+Memory: 4k page, physical 1832976k(143592k free), swap 1048572k(878332k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:GCLogFileSize=3145728 -XX:InitialHeapSize=1366294528 -XX:MaxHeapSize=1366294528 -XX:MaxMetaspaceSize=268435456 -XX:MetaspaceSize=100663296 -XX:NumberOfGCLogFiles=5 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:-TraceClassUnloading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation 
+2021-05-22T07:25:20.764-0400: 5.728: [GC (Allocation Failure) 2021-05-22T07:25:20.764-0400: 5.728: [DefNew: 356096K->32598K(400576K), 0.1462636 secs] 356096K->32598K(1290816K), 0.1463672 secs] [Times: user=0.02 sys=0.07, real=0.15 secs] 
+Heap
+ def new generation   total 400576K, used 299845K [0x00000000ae800000, 0x00000000c9aa0000, 0x00000000c9aa0000)
+  eden space 356096K,  75% used [0x00000000ae800000, 0x00000000becfba80, 0x00000000c43c0000)
+  from space 44480K,  73% used [0x00000000c6f30000, 0x00000000c8f05ba8, 0x00000000c9aa0000)
+  to   space 44480K,   0% used [0x00000000c43c0000, 0x00000000c43c0000, 0x00000000c6f30000)
+ tenured generation   total 890240K, used 0K [0x00000000c9aa0000, 0x0000000100000000, 0x0000000100000000)
+   the space 890240K,   0% used [0x00000000c9aa0000, 0x00000000c9aa0000, 0x00000000c9aa0200, 0x0000000100000000)
+ Metaspace       used 53806K, capacity 60972K, committed 61312K, reserved 1101824K
+  class space    used 6927K, capacity 8993K, committed 9088K, reserved 1048576K
